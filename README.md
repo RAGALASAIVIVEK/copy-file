@@ -41,6 +41,7 @@ filename=input("Enter an Existing File:")
 newfile=input("Enter a name for new file:")
 copy(filename,newfile)
 ```
+
 ### OUTPUT:
 ![Screenshot 2023-12-28 234333](https://github.com/RAGALASAIVIVEK/copy-file/assets/144979718/c8329def-090b-4afc-b32a-21672dec7f60)
 ![Screenshot 2023-12-28 234402](https://github.com/RAGALASAIVIVEK/copy-file/assets/144979718/ca7f6960-642c-4165-8281-c9eef4411748)
