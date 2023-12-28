@@ -30,23 +30,16 @@ end the program
 
 ## PROGRAM:
 ```
-'''
-#Program to copy the file.
-#Developed by: sai vivek.R
-#RegisterNumber:23003676
-'''
-print("Enter the name of source file: ")
-sFile=input()
-print("Enter the name of target file: ")
-tFile=input()
-fileHandle=open(sFile,"r")
-texts=fileHandle.readlines()
-fileHandle.close()
-fileHandle=open(tFile, "w")
-for s in texts:
-    fileHandle.write(s)
-fileHandle.close()
-print("\nFile Copied Successfully!")
+Developed By:sai vivek .R
+Register No: 23003676
+def copy(filename,newfile):
+    with open(filename,'r') as fp:
+        with open(newfile,'w') as fp1:
+            data1=fp.read()
+            fp1.write(data1)
+filename=input("Enter an Existing File:")
+newfile=input("Enter a name for new file:")
+copy(filename,newfile)
 ```
 ### OUTPUT:
 ![Screenshot 2023-12-28 234333](https://github.com/RAGALASAIVIVEK/copy-file/assets/144979718/c8329def-090b-4afc-b32a-21672dec7f60)
